@@ -13,7 +13,7 @@ services:
             - app-network
         depends_on:
             - db
-t
+
     # MySQL database service
     db:
         restart: always
